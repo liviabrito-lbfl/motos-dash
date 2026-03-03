@@ -46,6 +46,10 @@ if "saved_multiselect" not in st.session_state:
     st.session_state.saved_multiselect = []
 if "saved_dataeditor" not in st.session_state:
     st.session_state.saved_dataeditor = []
+if "categoria_entrada" not in st.session_state:
+    st.session_state.categoria_entrada = []
+if "categoria_saida" not in st.session_state:
+    st.session_state.categoria_saida = []
 
 # Sidebar
 with st.sidebar:
@@ -59,6 +63,8 @@ with st.sidebar:
         st.session_state.saved_search = ""
         st.session_state.saved_multiselect = []
         st.session_state.saved_dataeditor = []
+        st.session_state.categoria_entrada = []
+        st.session_state.categoria_saida = []
         st.rerun()
     
     st.markdown("---")
@@ -186,21 +192,95 @@ with st.sidebar:
     
     st.write(f"Motos selecionadas: {len(selected_motos)}")
 
-# Conteúdo principal
+# Função para extrair o número inicial do nome da moto para ordenação numérica
+def extract_moto_number(moto_name):
+    import re
+    match = re.match(r'^(\d+)', str(moto_name))
+    return int(match.group(1)) if match else 0
+
+# Determinar quais motos foram filtradas
+filtered_moto_list = []
+if st.session_state.last_filter == "search" and st.session_state.saved_search:
+    # Usar o filtro de busca
+    filtered_moto_list = [moto for moto in all_motos if st.session_state.saved_search.lower() in moto.lower()]
+elif st.session_state.last_filter == "multiselect" and st.session_state.saved_multiselect:
+    # Usar o multiselect
+    filtered_moto_list = st.session_state.saved_multiselect
+elif st.session_state.last_filter == "dataeditor" and st.session_state.saved_dataeditor:
+    # Usar o data editor
+    filtered_moto_list = st.session_state.saved_dataeditor
+
+# Conteúdo principal - Visão Macro do Negócio
+st.write("Visão Macro do Negócio")
+
+# Aplicar filtro de motos se houver
+if filtered_moto_list:
+    mdf_filtered = mdf[mdf["Moto"].isin(filtered_moto_list)]
+    st.info(f"📊 Exibindo dados de {len(filtered_moto_list)} moto(s) selecionada(s)")
+else:
+    mdf_filtered = mdf
+    st.info("📊 Exibindo dados de todas as motos")
+
 col1, col2 = st.columns(2)
-with st.container():
-    with col1:
-        st.header("Gráfico 1")
-        st.write("Aqui você pode colocar um gráfico ou análise relacionada aos dados de motos.")
-        st.write(mdf.head())
 
-    with col2:
-        st.header("Gráfico 2")
-        st.write("Aqui você pode colocar outro gráfico ou análise relacionada aos dados de motos.")
-        st.bar_chart(np.random.randn(50, 3))
+with col1:
+    with st.container(border=True):
+        st.header("Entradas")
+        
+        # Filtro de categoria dentro do container
+        entrada_data = mdf_filtered[mdf_filtered['Tipo'] == 'Entrada']
+        categorias_entrada = sorted(entrada_data['Categoria'].dropna().unique())
+        
+        selected_cat_entrada = st.multiselect(
+            "📂 Filtrar por Categoria:",
+            categorias_entrada,
+            default=st.session_state.categoria_entrada,
+            key="filter_cat_entrada",
+            help="Selecione uma ou mais categorias"
+        )
+        st.session_state.categoria_entrada = selected_cat_entrada
+        
+        #filtra apenas os valores do tipo "Entrada" para o gráfico de barras, independente de período
+        entrada_motos = entrada_data.copy()
+        
+        # Aplicar filtro de categoria se houver
+        if selected_cat_entrada:
+            entrada_motos = entrada_motos[entrada_motos['Categoria'].isin(selected_cat_entrada)]
+        
+        entrada_motos['_sort_key'] = entrada_motos['Moto'].apply(extract_moto_number)
+        entrada_motos = entrada_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
+        st.plotly_chart(px.bar(entrada_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Entrada por Categoria"), use_container_width=True)
 
-    #adiciona uma linha horizontal para separar os gráficos
-    st.markdown("---")
-    st.header("Gráfico 3")
-    st.write("Aqui você pode colocar um terceiro gráfico ou análise relacionada aos dados de motos.")
-    st.line_chart(np.random.randn(100, 1))
+with col2:
+    with st.container(border=True):
+        st.header("Saídas")
+        
+        # Filtro de categoria dentro do container
+        saida_data = mdf_filtered[mdf_filtered['Tipo'] == 'Saída']
+        categorias_saida = sorted(saida_data['Categoria'].dropna().unique())
+        
+        selected_cat_saida = st.multiselect(
+            "📂 Filtrar por Categoria:",
+            categorias_saida,
+            default=st.session_state.categoria_saida,
+            key="filter_cat_saida",
+            help="Selecione uma ou mais categorias"
+        )
+        st.session_state.categoria_saida = selected_cat_saida
+        
+        #filtra apenas os valores do tipo "Saída" para o gráfico de barras, independente de período
+        saida_motos = saida_data.copy()
+        
+        # Aplicar filtro de categoria se houver
+        if selected_cat_saida:
+            saida_motos = saida_motos[saida_motos['Categoria'].isin(selected_cat_saida)]
+        
+        saida_motos['_sort_key'] = saida_motos['Moto'].apply(extract_moto_number)
+        saida_motos = saida_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
+        st.plotly_chart(px.bar(saida_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Saída por Categoria"), use_container_width=True)
+
+#adiciona uma linha horizontal para separar os gráficos
+st.markdown("---")
+st.header("Gráfico 3")
+st.write("Aqui você pode colocar um terceiro gráfico ou análise relacionada aos dados de motos.")
+st.line_chart(np.random.randn(100, 1))

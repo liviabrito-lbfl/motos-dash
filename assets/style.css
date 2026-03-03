@@ -39,3 +39,35 @@
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
 }
+/* Adicionar bordas aos containers */
+[data-testid="stVerticalBlock"] > [data-testid="stVerticalBlock"] {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Container principal com borda mais destacada */
+div[data-testid="stVerticalBlock"] > div[data-testid="element-container"] > div[data-testid="stVerticalBlock"] {
+    border: 2px solid #d0d0d0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+/* Bordas para as colunas */
+[data-testid="column"] {
+    border: 2px solid #1f77b4;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+[data-testid="column"]:hover {
+    border-color: #0d47a1;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
