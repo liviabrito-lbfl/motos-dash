@@ -1,0 +1,41 @@
+/* Reduzir espaçamento entre elementos na sidebar */
+[data-testid="stSidebar"] .element-container {
+    margin-bottom: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+}
+
+[data-testid="stSidebar"] hr {
+    margin-top: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+[data-testid="stSidebar"] .stTextInput {
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 0rem !important;
+}
+
+[data-testid="stSidebar"] .stMultiSelect {
+    margin-bottom: 0.2rem !important;
+}
+
+[data-testid="stSidebar"] .stButton {
+    margin-bottom: 0.2rem !important;
+    margin-top: 0.2rem !important;
+}
+
+[data-testid="stSidebar"] p {
+    margin-bottom: 0.2rem !important;
+    margin-top: 0.2rem !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
