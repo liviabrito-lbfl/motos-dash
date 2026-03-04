@@ -354,3 +354,102 @@ with st.container(border=True):
             st.metric("Saldo", f"R$ {saldo:,.2f}", delta=f"R$ {saldo:,.2f}" if saldo >= 0 else f"-R$ {abs(saldo):,.2f}")
     else:
         st.info("Nenhum dado disponível para o período selecionado.")
+
+#adiciona uma linha horizontal para separar os gráficos
+st.markdown("---")
+
+# Gráfico 4 - Histórico Completo de Entradas e Saídas
+with st.container(border=True):
+    st.header("📜 Histórico Completo: Todas as Entradas e Saídas")
+    st.write("Visualização detalhada de todas as transações ao longo do tempo.")
+    
+    # Usar os mesmos dados filtrados
+    if len(df_temporal) > 0:
+        # Agrupar por Período, Tipo e Categoria
+        df_historico = df_temporal.groupby(['Periodo', 'Tipo', 'Categoria'])['Valor'].sum().reset_index()
+        
+        # Formatar o período para exibição
+        df_historico['Periodo_Format'] = pd.to_datetime(df_historico['Periodo'] + '-01').dt.strftime('%m/%Y')
+        
+        # Criar gráfico de barras com categorias empilhadas, separado por Tipo
+        fig_historico = px.bar(
+            df_historico,
+            x='Periodo_Format',
+            y='Valor',
+            color='Categoria',
+            facet_col='Tipo',
+            title=f"Histórico de Entradas e Saídas por Categoria ({periodo_inicio} a {periodo_fim})",
+            labels={'Periodo_Format': 'Período (Mês/Ano)', 'Valor': 'Valor (R$)', 'Categoria': 'Categoria'},
+            barmode='stack',
+            height=600
+        )
+        
+        fig_historico.update_layout(
+            hovermode='x unified',
+            xaxis_title="Período (Mês/Ano)",
+            yaxis_title="Valor (R$)",
+            xaxis=dict(type='category'),
+            xaxis2=dict(type='category')
+        )
+        
+        # Atualizar títulos dos subplots
+        fig_historico.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
+        
+        # Calcular totais por período e tipo para adicionar anotações
+        totais_por_periodo_tipo = df_historico.groupby(['Periodo_Format', 'Tipo'])['Valor'].sum().reset_index()
+        
+        # Adicionar anotações com o valor total no topo de cada barra
+        for idx, row in totais_por_periodo_tipo.iterrows():
+            tipo = row['Tipo']
+            periodo = row['Periodo_Format']
+            valor_total = row['Valor']
+            
+            # Determinar qual subplot (Entrada=1, Saída=2)
+            xref = 'x' if tipo == 'Entrada' else 'x2'
+            yref = 'y' if tipo == 'Entrada' else 'y2'
+            
+            fig_historico.add_annotation(
+                x=periodo,
+                y=valor_total,
+                text=f'R$ {valor_total:,.0f}',
+                showarrow=False,
+                yshift=10,
+                xref=xref,
+                yref=yref,
+                font=dict(size=9, color='black')
+            )
+        
+        st.plotly_chart(fig_historico, use_container_width=True)
+        
+        # Adicionar tabela resumo detalhada
+        st.subheader("📊 Detalhamento por Categoria")
+        
+        col_d, col_e = st.columns(2)
+        
+        with col_d:
+            st.write("**Entradas por Categoria**")
+            entradas_cat = df_temporal[df_temporal['Tipo'] == 'Entrada'].groupby('Categoria')['Valor'].sum().sort_values(ascending=False)
+            if len(entradas_cat) > 0:
+                df_entradas_display = pd.DataFrame({
+                    'Categoria': entradas_cat.index,
+                    'Valor (R$)': entradas_cat.values
+                })
+                df_entradas_display['Valor (R$)'] = df_entradas_display['Valor (R$)'].apply(lambda x: f"R$ {x:,.2f}")
+                st.dataframe(df_entradas_display, hide_index=True, use_container_width=True)
+            else:
+                st.info("Nenhuma entrada no período")
+        
+        with col_e:
+            st.write("**Saídas por Categoria**")
+            saidas_cat = df_temporal[df_temporal['Tipo'] == 'Saída'].groupby('Categoria')['Valor'].sum().sort_values(ascending=False)
+            if len(saidas_cat) > 0:
+                df_saidas_display = pd.DataFrame({
+                    'Categoria': saidas_cat.index,
+                    'Valor (R$)': saidas_cat.values
+                })
+                df_saidas_display['Valor (R$)'] = df_saidas_display['Valor (R$)'].apply(lambda x: f"R$ {x:,.2f}")
+                st.dataframe(df_saidas_display, hide_index=True, use_container_width=True)
+            else:
+                st.info("Nenhuma saída no período")
+    else:
+        st.info("Nenhum dado disponível para o período selecionado.")
