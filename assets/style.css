@@ -71,3 +71,8 @@ div[data-testid="stVerticalBlock"] > div[data-testid="element-container"] > div[
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
 }
+/* Padronizar fonte dos expanders */
+[data-testid="stExpander"] summary p {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+}
