@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 import numpy as np
 from utils import blue_palette
-import datetime
+from sidebar import inicializar_session_state, render_sidebar
 
 # Configure page FIRST for better performance
 st.set_page_config(layout="wide", page_title="Dashboard LocMotos", page_icon=":motorcycle:")
@@ -31,166 +31,73 @@ mdf = mdf[mdf["Moto"] != "Escolha a moto"] #motos com valor "Escolha a moto"
 # UI
 st.title("Dashboard LocMotos 📊")
 
-# inserir cards informativos com as principais métricas, como total de motos, média de preço, etc.
+# Inicializar session_state e renderizar sidebar
+inicializar_session_state()
+filtered_moto_list, date = render_sidebar(mdf, mdf["Moto"].unique().shape[0])
+
+# Aplicar filtros para cálculo das métricas
+if filtered_moto_list:
+    mdf_for_metrics = mdf[mdf["Moto"].isin(filtered_moto_list)]
+else:
+    mdf_for_metrics = mdf
+
+# Aplicar filtro de período
+if len(date) == 2:
+    start_date, end_date = date[0], date[1]
+else:
+    start_date = end_date = date[0]
+
+periodos = pd.date_range(
+    start=f"{start_date.year}-{start_date.month:02d}-01",
+    end=f"{end_date.year}-{end_date.month:02d}-01",
+    freq='MS'
+).strftime('%Y-%m').tolist()
+
+mdf_for_metrics = mdf_for_metrics[mdf_for_metrics['Periodo'].isin(periodos)]
+
+# Calcular métricas principais
 total_motos = mdf["Moto"].unique().shape[0]
-st.metric("Total de Motos", total_motos, delta=None, delta_color="normal", help="Número total de motos cadastradas no dataset", label_visibility="visible", border=True, width=150) 
+total_entradas = mdf_for_metrics[mdf_for_metrics['Tipo'] == 'Entrada']['Valor'].sum()
+total_saidas = mdf_for_metrics[mdf_for_metrics['Tipo'] == 'Saída']['Valor'].sum()
+saldo_total = total_entradas - total_saidas
+total_transacoes = len(mdf_for_metrics)
 
-# Inicializar session_state para controle de filtros
-if "last_filter" not in st.session_state:
-    st.session_state.last_filter = None
-if "widget_key" not in st.session_state:
-    st.session_state.widget_key = 0
-if "saved_search" not in st.session_state:
-    st.session_state.saved_search = ""
-if "saved_multiselect" not in st.session_state:
-    st.session_state.saved_multiselect = []
-if "saved_dataeditor" not in st.session_state:
-    st.session_state.saved_dataeditor = []
-if "categoria_entrada" not in st.session_state:
-    st.session_state.categoria_entrada = []
-if "categoria_saida" not in st.session_state:
-    st.session_state.categoria_saida = []
+# Cards informativos com as principais métricas
+col_metric1, col_metric2, col_metric3 = st.columns(3)
 
-# Sidebar
-with st.sidebar:
-    #logo da empresa
-    st.image('assets/locmotos-logo.png', width="content", caption="LocMotos - Aluguel de Motos")
-    
-    # Botão para limpar todos os filtros
-    if st.button("🔄 Limpar Filtros", use_container_width=True, type="secondary"):
-        st.session_state.last_filter = None
-        st.session_state.widget_key += 1
-        st.session_state.saved_search = ""
-        st.session_state.saved_multiselect = []
-        st.session_state.saved_dataeditor = []
-        st.session_state.categoria_entrada = []
-        st.session_state.categoria_saida = []
-        st.rerun()
-    
-    st.markdown("---")
+with col_metric1:
+    st.metric("Total de Motos", total_motos, help="Número total de motos cadastradas no dataset", border=True)
 
-    # seleção de intervalo de datas para análise
-    inicial_year = 2025
-    current_year = datetime.date.today().year
-    jan_1 = datetime.date(inicial_year, 1, 1)
-    dec_31 = datetime.date(current_year, 12, 31)
-    
-    # Datas padrão para o dataset (resetar para período completo dos dados)
-    default_start_date = datetime.date(2025, 9, 1)  # 01/09/2025
-    default_end_date = datetime.date.today()  # Data de hoje
-
-    date = st.date_input(
-        "Selecione o intervalo de datas para análise:",
-        (default_start_date, default_end_date),
-        jan_1,
-        dec_31,
-        format="DD/MM/YYYY",
-        key=f"date_input_{st.session_state.widget_key}"
+with col_metric2:
+    st.metric(
+        "Saldo Geral", 
+        f"R$ {saldo_total:,.2f}", 
+        help="Diferença total entre entradas e saídas (período e motos filtradas)",
+        border=True
     )
 
-    # Campo de busca para filtrar motos
-    search_term = st.text_input(
-        "**1) Buscar moto:**", 
-        placeholder="Digite parte do nome da moto...",
-        value=st.session_state.saved_search,
-        key=f"search_motos_{st.session_state.widget_key}"
-    )
-    
-    # Filtrar motos com base no termo de busca
-    all_motos = sorted(mdf["Moto"].unique())
-    if search_term and search_term.strip():
-        filtered_motos = [moto for moto in all_motos if search_term.lower() in moto.lower()]
-        if len(filtered_motos) == 0:
-            st.warning(f"Nenhuma moto encontrada com '{search_term}'")
-        else:
-            st.success(f"Encontradas {len(filtered_motos)} moto(s):")
-            for moto in filtered_motos:
-                st.write(f"  • {moto}")
-        
-        # Se o filtro de busca for usado pela primeira vez, limpar os outros
-        if st.session_state.last_filter != "search":
-            st.session_state.last_filter = "search"
-            st.session_state.saved_search = search_term
-            st.session_state.saved_multiselect = []
-            st.session_state.saved_dataeditor = []
-            st.session_state.widget_key += 1
-            st.rerun()
-        else:
-            # Apenas atualizar o valor salvo
-            st.session_state.saved_search = search_term
+with col_metric3:
+    # Exibir status visual do saldo
+    if saldo_total >= 0:
+        st.markdown(
+            f"""
+            <div style="border: 1px solid #d4edda; border-radius: 0.5rem; padding: 0.75rem 1rem; background-color: #d4edda; text-align: center; height: 110px; display: flex; flex-direction: column; justify-content: center;">
+                <div style="font-size: 3rem; margin-bottom: 0.2rem;">💰</div>
+                <div style="font-size: 1rem; font-weight: bold; color: #155724;">Resultado Positivo</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
     else:
-        filtered_motos = all_motos
-        st.session_state.saved_search = search_term
-        #if not search_term:
-            #st.info(f"Todas as {len(all_motos)} motos disponíveis")
-    
-    st.markdown("---")
-    # seleção de motos
-    options = st.multiselect(
-        "**2) Clique nas Motos:**",
-        filtered_motos,
-        default=st.session_state.saved_multiselect if st.session_state.saved_multiselect else [],
-        max_selections=total_motos+1,
-        accept_new_options=False,
-        key=f"multiselect_motos_{st.session_state.widget_key}"
-    )
-    
-    # Se o multiselect for usado pela primeira vez, limpar os outros
-    if options and st.session_state.last_filter != "multiselect":
-        st.session_state.last_filter = "multiselect"
-        st.session_state.saved_search = ""
-        st.session_state.saved_multiselect = options
-        st.session_state.saved_dataeditor = []
-        st.session_state.widget_key += 1
-        st.rerun()
-    else:
-        # Apenas atualizar o valor salvo
-        st.session_state.saved_multiselect = options
-
-    st.markdown("---")
-    st.write("**3) Escolha as Motos na lista abaixo:**")
-    
-    # Criar DataFrame para seleção com data_editor
-    motos_df = pd.DataFrame({
-        "Moto": sorted(mdf["Moto"].unique()),
-        "Selecionar": [moto in st.session_state.saved_dataeditor for moto in sorted(mdf["Moto"].unique())]
-    })
-    
-    edited_df = st.data_editor(
-        motos_df,
-        column_config={
-            "Selecionar": st.column_config.CheckboxColumn(
-                "",
-                help="Marque para incluir na análise",
-                default=False,
-            ),
-            "Moto": st.column_config.TextColumn(
-                "Moto",
-                disabled=True,
-            )
-        },
-        hide_index=True,
-        use_container_width=True,
-        height=300,
-        key=f"data_editor_motos_{st.session_state.widget_key}"
-    )
-    
-    # Extrair motos selecionadas do data_editor
-    selected_motos = edited_df[edited_df["Selecionar"] == True]["Moto"].tolist()
-    
-    # Se o data editor for usado pela primeira vez, limpar os outros
-    if selected_motos and st.session_state.last_filter != "dataeditor":
-        st.session_state.last_filter = "dataeditor"
-        st.session_state.saved_search = ""
-        st.session_state.saved_multiselect = []
-        st.session_state.saved_dataeditor = selected_motos
-        st.session_state.widget_key += 1
-        st.rerun()
-    else:
-        # Apenas atualizar o valor salvo
-        st.session_state.saved_dataeditor = selected_motos
-    
-    st.write(f"Motos selecionadas: {len(selected_motos)}")
+        st.markdown(
+            f"""
+            <div style="border: 1px solid #f8d7da; border-radius: 0.5rem; padding: 0.75rem 1rem; background-color: #f8d7da; text-align: center; height: 110px; display: flex; flex-direction: column; justify-content: center;">
+                <div style="font-size: 3rem; margin-bottom: 0.2rem;">📉</div>
+                <div style="font-size: 1rem; font-weight: bold; color: #721c24;">Resultado Negativo</div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 # Função para extrair o número inicial do nome da moto para ordenação numérica
 def extract_moto_number(moto_name):
@@ -198,21 +105,9 @@ def extract_moto_number(moto_name):
     match = re.match(r'^(\d+)', str(moto_name))
     return int(match.group(1)) if match else 0
 
-# Determinar quais motos foram filtradas
-filtered_moto_list = []
-if st.session_state.last_filter == "search" and st.session_state.saved_search:
-    # Usar o filtro de busca
-    filtered_moto_list = [moto for moto in all_motos if st.session_state.saved_search.lower() in moto.lower()]
-elif st.session_state.last_filter == "multiselect" and st.session_state.saved_multiselect:
-    # Usar o multiselect
-    filtered_moto_list = st.session_state.saved_multiselect
-elif st.session_state.last_filter == "dataeditor" and st.session_state.saved_dataeditor:
-    # Usar o data editor
-    filtered_moto_list = st.session_state.saved_dataeditor
-
 # Conteúdo principal - Visão Macro do Negócio
 
-# Aplicar filtro de motos se houver
+# Aplicar filtro de motos para os gráficos (sem filtro de período ainda)
 if filtered_moto_list:
     mdf_filtered = mdf[mdf["Moto"].isin(filtered_moto_list)]
     info_msg = f"📊 Exibindo dados de {len(filtered_moto_list)} moto(s) selecionada(s)"
