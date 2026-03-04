@@ -115,11 +115,16 @@ else:
     mdf_filtered = mdf
     info_msg = "📊 Exibindo dados de todas as motos"
 
+# Criar mapeamento de cores consistente para todas as categorias
+all_categorias = sorted(mdf['Categoria'].dropna().unique())
+color_palette = px.colors.qualitative.Plotly  # Paleta padrão do Plotly
+categoria_colors = {cat: color_palette[i % len(color_palette)] for i, cat in enumerate(all_categorias)}
+
+# Exibir informação de filtro aplicável a todos os gráficos
+st.info(info_msg)
+
 # Container agrupador para Visão Macro do Negócio
-with st.container(border=True):
-    st.header("Visão Macro do Negócio")
-    st.info(info_msg)
-    
+with st.expander("🎯 Visão Macro do Negócio", expanded=True):
     col1, col2 = st.columns(2)
 
     with col1:
@@ -148,7 +153,7 @@ with st.container(border=True):
             
             entrada_motos['_sort_key'] = entrada_motos['Moto'].apply(extract_moto_number)
             entrada_motos = entrada_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
-            st.plotly_chart(px.bar(entrada_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Entrada por Categoria"), use_container_width=True)
+            st.plotly_chart(px.bar(entrada_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Entrada por Categoria", color_discrete_map=categoria_colors), use_container_width=True)
 
     with col2:
         with st.container(border=True):
@@ -176,15 +181,11 @@ with st.container(border=True):
             
             saida_motos['_sort_key'] = saida_motos['Moto'].apply(extract_moto_number)
             saida_motos = saida_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
-            st.plotly_chart(px.bar(saida_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Saída por Categoria"), use_container_width=True)
+            st.plotly_chart(px.bar(saida_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Saída por Categoria", color_discrete_map=categoria_colors), use_container_width=True)
 
-#adiciona uma linha horizontal para separar os gráficos
-st.markdown("---")
 
 # Gráfico 3 - Evolução Temporal de Entradas e Saídas
-with st.container(border=True):
-    st.header("📈 Evolução Temporal: Entradas vs Saídas")
-    
+with st.expander("📈 Evolução Temporal: Entradas vs Saídas", expanded=True):
     # Criar lista de períodos no intervalo selecionado
     if len(date) == 2:
         start_date, end_date = date[0], date[1]
@@ -250,12 +251,9 @@ with st.container(border=True):
     else:
         st.info("Nenhum dado disponível para o período selecionado.")
 
-#adiciona uma linha horizontal para separar os gráficos
-st.markdown("---")
 
 # Gráfico 4 - Histórico Completo de Entradas e Saídas
-with st.container(border=True):
-    st.header("📜 Histórico Completo: Todas as Entradas e Saídas")
+with st.expander("📜 Histórico Completo: Todas as Entradas e Saídas", expanded=True):
     st.write("Visualização detalhada de todas as transações ao longo do tempo.")
     
     # Usar os mesmos dados filtrados
@@ -276,7 +274,8 @@ with st.container(border=True):
             title=f"Histórico de Entradas e Saídas por Categoria ({periodo_inicio} a {periodo_fim})",
             labels={'Periodo_Format': 'Período (Mês/Ano)', 'Valor': 'Valor (R$)', 'Categoria': 'Categoria'},
             barmode='stack',
-            height=600
+            height=600,
+            color_discrete_map=categoria_colors
         )
         
         fig_historico.update_layout(
@@ -329,6 +328,13 @@ with st.container(border=True):
                     'Categoria': entradas_cat.index,
                     'Valor (R$)': entradas_cat.values
                 })
+                # Adicionar linha de total
+                total_entradas = entradas_cat.sum()
+                df_entradas_total = pd.DataFrame({
+                    'Categoria': ['TOTAL'],
+                    'Valor (R$)': [total_entradas]
+                })
+                df_entradas_display = pd.concat([df_entradas_display, df_entradas_total], ignore_index=True)
                 df_entradas_display['Valor (R$)'] = df_entradas_display['Valor (R$)'].apply(lambda x: f"R$ {x:,.2f}")
                 st.dataframe(df_entradas_display, hide_index=True, use_container_width=True)
             else:
@@ -342,6 +348,13 @@ with st.container(border=True):
                     'Categoria': saidas_cat.index,
                     'Valor (R$)': saidas_cat.values
                 })
+                # Adicionar linha de total
+                total_saidas = saidas_cat.sum()
+                df_saidas_total = pd.DataFrame({
+                    'Categoria': ['TOTAL'],
+                    'Valor (R$)': [total_saidas]
+                })
+                df_saidas_display = pd.concat([df_saidas_display, df_saidas_total], ignore_index=True)
                 df_saidas_display['Valor (R$)'] = df_saidas_display['Valor (R$)'].apply(lambda x: f"R$ {x:,.2f}")
                 st.dataframe(df_saidas_display, hide_index=True, use_container_width=True)
             else:
