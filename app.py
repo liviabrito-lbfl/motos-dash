@@ -211,76 +211,146 @@ elif st.session_state.last_filter == "dataeditor" and st.session_state.saved_dat
     filtered_moto_list = st.session_state.saved_dataeditor
 
 # Conteúdo principal - Visão Macro do Negócio
-st.write("Visão Macro do Negócio")
 
 # Aplicar filtro de motos se houver
 if filtered_moto_list:
     mdf_filtered = mdf[mdf["Moto"].isin(filtered_moto_list)]
-    st.info(f"📊 Exibindo dados de {len(filtered_moto_list)} moto(s) selecionada(s)")
+    info_msg = f"📊 Exibindo dados de {len(filtered_moto_list)} moto(s) selecionada(s)"
 else:
     mdf_filtered = mdf
-    st.info("📊 Exibindo dados de todas as motos")
+    info_msg = "📊 Exibindo dados de todas as motos"
 
-col1, col2 = st.columns(2)
+# Container agrupador para Visão Macro do Negócio
+with st.container(border=True):
+    st.header("Visão Macro do Negócio")
+    st.info(info_msg)
+    
+    col1, col2 = st.columns(2)
 
-with col1:
-    with st.container(border=True):
-        st.header("Entradas")
-        
-        # Filtro de categoria dentro do container
-        entrada_data = mdf_filtered[mdf_filtered['Tipo'] == 'Entrada']
-        categorias_entrada = sorted(entrada_data['Categoria'].dropna().unique())
-        
-        selected_cat_entrada = st.multiselect(
-            "📂 Filtrar por Categoria:",
-            categorias_entrada,
-            default=st.session_state.categoria_entrada,
-            key="filter_cat_entrada",
-            help="Selecione uma ou mais categorias"
-        )
-        st.session_state.categoria_entrada = selected_cat_entrada
-        
-        #filtra apenas os valores do tipo "Entrada" para o gráfico de barras, independente de período
-        entrada_motos = entrada_data.copy()
-        
-        # Aplicar filtro de categoria se houver
-        if selected_cat_entrada:
-            entrada_motos = entrada_motos[entrada_motos['Categoria'].isin(selected_cat_entrada)]
-        
-        entrada_motos['_sort_key'] = entrada_motos['Moto'].apply(extract_moto_number)
-        entrada_motos = entrada_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
-        st.plotly_chart(px.bar(entrada_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Entrada por Categoria"), use_container_width=True)
+    with col1:
+        with st.container(border=True):
+            st.header("Entradas")
+            
+            # Filtro de categoria dentro do container
+            entrada_data = mdf_filtered[mdf_filtered['Tipo'] == 'Entrada']
+            categorias_entrada = sorted(entrada_data['Categoria'].dropna().unique())
+            
+            selected_cat_entrada = st.multiselect(
+                "📂 Filtrar por Categoria:",
+                categorias_entrada,
+                default=st.session_state.categoria_entrada,
+                key="filter_cat_entrada",
+                help="Selecione uma ou mais categorias"
+            )
+            st.session_state.categoria_entrada = selected_cat_entrada
+            
+            #filtra apenas os valores do tipo "Entrada" para o gráfico de barras, independente de período
+            entrada_motos = entrada_data.copy()
+            
+            # Aplicar filtro de categoria se houver
+            if selected_cat_entrada:
+                entrada_motos = entrada_motos[entrada_motos['Categoria'].isin(selected_cat_entrada)]
+            
+            entrada_motos['_sort_key'] = entrada_motos['Moto'].apply(extract_moto_number)
+            entrada_motos = entrada_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
+            st.plotly_chart(px.bar(entrada_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Entrada por Categoria"), use_container_width=True)
 
-with col2:
-    with st.container(border=True):
-        st.header("Saídas")
-        
-        # Filtro de categoria dentro do container
-        saida_data = mdf_filtered[mdf_filtered['Tipo'] == 'Saída']
-        categorias_saida = sorted(saida_data['Categoria'].dropna().unique())
-        
-        selected_cat_saida = st.multiselect(
-            "📂 Filtrar por Categoria:",
-            categorias_saida,
-            default=st.session_state.categoria_saida,
-            key="filter_cat_saida",
-            help="Selecione uma ou mais categorias"
-        )
-        st.session_state.categoria_saida = selected_cat_saida
-        
-        #filtra apenas os valores do tipo "Saída" para o gráfico de barras, independente de período
-        saida_motos = saida_data.copy()
-        
-        # Aplicar filtro de categoria se houver
-        if selected_cat_saida:
-            saida_motos = saida_motos[saida_motos['Categoria'].isin(selected_cat_saida)]
-        
-        saida_motos['_sort_key'] = saida_motos['Moto'].apply(extract_moto_number)
-        saida_motos = saida_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
-        st.plotly_chart(px.bar(saida_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Saída por Categoria"), use_container_width=True)
+    with col2:
+        with st.container(border=True):
+            st.header("Saídas")
+            
+            # Filtro de categoria dentro do container
+            saida_data = mdf_filtered[mdf_filtered['Tipo'] == 'Saída']
+            categorias_saida = sorted(saida_data['Categoria'].dropna().unique())
+            
+            selected_cat_saida = st.multiselect(
+                "📂 Filtrar por Categoria:",
+                categorias_saida,
+                default=st.session_state.categoria_saida,
+                key="filter_cat_saida",
+                help="Selecione uma ou mais categorias"
+            )
+            st.session_state.categoria_saida = selected_cat_saida
+            
+            #filtra apenas os valores do tipo "Saída" para o gráfico de barras, independente de período
+            saida_motos = saida_data.copy()
+            
+            # Aplicar filtro de categoria se houver
+            if selected_cat_saida:
+                saida_motos = saida_motos[saida_motos['Categoria'].isin(selected_cat_saida)]
+            
+            saida_motos['_sort_key'] = saida_motos['Moto'].apply(extract_moto_number)
+            saida_motos = saida_motos.sort_values('_sort_key').drop(columns=['_sort_key'])
+            st.plotly_chart(px.bar(saida_motos, x="Moto", y="Valor", color="Categoria", title="Valores de Saída por Categoria"), use_container_width=True)
 
 #adiciona uma linha horizontal para separar os gráficos
 st.markdown("---")
-st.header("Gráfico 3")
-st.write("Aqui você pode colocar um terceiro gráfico ou análise relacionada aos dados de motos.")
-st.line_chart(np.random.randn(100, 1))
+
+# Gráfico 3 - Evolução Temporal de Entradas e Saídas
+with st.container(border=True):
+    st.header("📈 Evolução Temporal: Entradas vs Saídas")
+    
+    # Criar lista de períodos no intervalo selecionado
+    if len(date) == 2:
+        start_date, end_date = date[0], date[1]
+    else:
+        start_date = end_date = date[0]
+    
+    # Gerar lista de períodos (YYYY-MM) entre as datas selecionadas
+    periodos = pd.date_range(
+        start=f"{start_date.year}-{start_date.month:02d}-01",
+        end=f"{end_date.year}-{end_date.month:02d}-01",
+        freq='MS'
+    ).strftime('%Y-%m').tolist()
+    
+    # Filtrar dados pelo período
+    df_temporal = mdf_filtered[mdf_filtered['Periodo'].isin(periodos)].copy()
+    
+    if len(df_temporal) > 0:
+        # Agrupar por Período e Tipo, somando os valores
+        df_grouped = df_temporal.groupby(['Periodo', 'Tipo'])['Valor'].sum().reset_index()
+        
+        # Formatar o período para exibição (MM/AAAA)
+        df_grouped['Periodo_Format'] = pd.to_datetime(df_grouped['Periodo'] + '-01').dt.strftime('%m/%Y')
+        
+        # Formatar períodos para o título
+        periodo_inicio = pd.to_datetime(periodos[0] + '-01').strftime('%m/%Y')
+        periodo_fim = pd.to_datetime(periodos[-1] + '-01').strftime('%m/%Y')
+        
+        # Criar gráfico de linhas
+        fig = px.line(
+            df_grouped, 
+            x='Periodo_Format', 
+            y='Valor', 
+            color='Tipo',
+            markers=True,
+            title=f"Evolução de Entradas e Saídas ({periodo_inicio} a {periodo_fim})",
+            labels={'Periodo_Format': 'Período (Mês/Ano)', 'Valor': 'Valor Total (R$)', 'Tipo': 'Tipo'},
+            color_discrete_map={'Entrada': '#2ecc71', 'Saída': '#e74c3c'}
+        )
+        
+        # Melhorar layout
+        fig.update_layout(
+            hovermode='x unified',
+            xaxis_title="Período (Mês/Ano)",
+            yaxis_title="Valor Total (R$)",
+            legend_title="Tipo",
+            xaxis=dict(type='category')  # Forçar eixo x como categórico para não interpretar como data
+        )
+        
+        st.plotly_chart(fig, use_container_width=True)
+        
+        # Mostrar resumo
+        col_a, col_b, col_c = st.columns(3)
+        total_entrada = df_grouped[df_grouped['Tipo'] == 'Entrada']['Valor'].sum()
+        total_saida = df_grouped[df_grouped['Tipo'] == 'Saída']['Valor'].sum()
+        saldo = total_entrada - total_saida
+        
+        with col_a:
+            st.metric("Total Entradas", f"R$ {total_entrada:,.2f}", delta=None)
+        with col_b:
+            st.metric("Total Saídas", f"R$ {total_saida:,.2f}", delta=None)
+        with col_c:
+            st.metric("Saldo", f"R$ {saldo:,.2f}", delta=f"R$ {saldo:,.2f}" if saldo >= 0 else f"-R$ {abs(saldo):,.2f}")
+    else:
+        st.info("Nenhum dado disponível para o período selecionado.")
