@@ -1,317 +1,331 @@
-Data,Moto,Tipo,Categoria,Valor,Observação,Ano,Mes,Periodo
-2025-09-15,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,9,2025-09
-2025-09-15,3 - Factor vermelha SGE,Entrada,Caução,500.0,Calção,2025,9,2025-09
-2025-09-15,3 - Factor vermelha SGE,Saída,Outros,35.0,Cartório,2025,9,2025-09
-2025-09-15,2 - Factor 150cc STS,Entrada,Aluguel,300.0,,2025,9,2025-09
-2025-09-15,1 - Honda CG preta OYQ,Entrada,Aluguel,230.0,,2025,9,2025-09
-2025-09-18,4 - Factor preta SOC,Saída,Seguro,98.9,,2025,9,2025-09
-2025-09-18,3 - Factor vermelha SGE,Saída,Seguro,98.9,,2025,9,2025-09
-2025-09-18,2 - Factor 150cc STS,Saída,Seguro,85.0,,2025,9,2025-09
-2025-09-19,2 - Factor 150cc STS,Saída,Manutenção,30.0,Óleo,2025,9,2025-09
-2025-09-22,1 - Honda CG preta OYQ,Saída,Seguro,95.0,,2025,9,2025-09
-2025-09-23,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,9,2025-09
-2025-09-28,1 - Honda CG preta OYQ,Entrada,Aluguel,450.0,,2025,9,2025-09
-2025-09-28,5 - Yamaha Factor Azul - SOK,Saída,Outros,255.0,Revisão,2025,9,2025-09
-2025-09-28,2 - Factor 150cc STS,Saída,Outros,68.88,Vistoria DETRAN,2025,9,2025-09
-2025-09-28,5 - Yamaha Factor Azul - SOK,Saída,Outros,68.88,Vistoria DETRAN,2025,9,2025-09
-2025-09-29,5 - Yamaha Factor Azul - SOK,Saída,Seguro,130.0,,2025,9,2025-09
-2025-09-29,5 - Yamaha Factor Azul - SOK,Saída,Outros,730.0,Protetor de Carenagem,2025,9,2025-09
-2025-09-30,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,9,2025-09
-2025-09-30,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,9,2025-09
-,,,,,,,,<NA>-<NA>
-2025-10-02,5 - Yamaha Factor Azul - SOK,Saída,Outros,60.0,Lavagem,2025,10,2025-10
-2025-10-02,5 - Yamaha Factor Azul - SOK,Saída,Outros,440.0,Envelopamento,2025,10,2025-10
-2025-10-02,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-02,5 - Yamaha Factor Azul - SOK,Entrada,Caução,200.0,Calção,2025,10,2025-10
-2025-10-02,3 - Factor vermelha SGE,Saída,Outros,156.86,Vistoria Polícia Civil,2025,10,2025-10
-2025-10-03,2 - Factor 150cc STS,Saída,Outros,156.86,Vistoria Polícia Civil,2025,10,2025-10
-2025-10-03,5 - Yamaha Factor Azul - SOK,Saída,Outros,32.0,Suporte  Celular,2025,10,2025-10
-2025-10-04,2 - Factor 150cc STS,Saída,Outros,260.0,Revisão,2025,10,2025-10
-2025-10-06,5 - Yamaha Factor Azul - SOK,Saída,Outros,30.0,Elétrica,2025,10,2025-10
-2025-10-07,5 - Yamaha Factor Azul - SOK,Entrada,Caução,50.0,Calção,2025,10,2025-10
-2025-10-07,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-08,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-09,1 - Honda CG preta OYQ,Entrada,Aluguel,440.0,,2025,10,2025-10
-2025-10-09,6 - Fazer 150 Vermelha SOO,Saída,Outros,68.0,Vistoria,2025,10,2025-10
-2025-10-09,6 - Fazer 150 Vermelha SOO,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
-2025-10-10,6 - Fazer 150 Vermelha SOO,Saída,Outros,730.0,Protetor de Carenagem,2025,10,2025-10
-2025-10-10,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-10,6 - Fazer 150 Vermelha SOO,Entrada,Caução,300.0,Calção,2025,10,2025-10
-2025-10-13,2 - Factor 150cc STS,Saída,Outros,280.0,Pneu Dianteiro,2025,10,2025-10
-2025-10-13,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-14,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-15,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-17,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-17,7 - Fazer 150 Preta SNO,Saída,Outros,69.0,Vistoria,2025,10,2025-10
-2025-10-17,7 - Fazer 150 Preta SNO,Saída,Seguro,150.0,Adesão Seguro,2025,10,2025-10
-2025-10-17,8 - Fazer 150 Preta SNP,Saída,Seguro,150.0,Adesão Seguro,2025,10,2025-10
-2025-10-18,1 - Honda CG preta OYQ,Entrada,Aluguel,220.0,,2025,10,2025-10
-2025-10-20,8 - Fazer 150 Preta SNP,Saída,Outros,69.0,Vistoria,2025,10,2025-10
-2025-10-20,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,300.0,,2025,10,2025-10
-2025-10-21,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-21,8 - Fazer 150 Preta SNP,Saída,Outros,135.0,Transferência DETRAN,2025,10,2025-10
-2025-10-21,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-21,6 - Fazer 150 Vermelha SOO,Saída,Outros,259.0,Transferência DETRAN/Baixa Gravame,2025,10,2025-10
-2025-10-21,7 - Fazer 150 Preta SNO,Saída,Revisão,200.0,,2025,10,2025-10
-2025-10-21,8 - Fazer 150 Preta SNP,Saída,Revisão,200.0,,2025,10,2025-10
-2025-10-21,2 - Factor 150cc STS,Saída,Outros,450.0,Envelopamemto,2025,10,2025-10
-2025-10-23,8 - Fazer 150 Preta SNP,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
-2025-10-24,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-25,9 - Fazer 150 Preta SNT,Saída,Outros,150.0,Adesão Seguro,2025,10,2025-10
-2025-10-25,9 - Fazer 150 Preta SNT,Saída,Outros,30.0,Instalação Protetor Carenagem,2025,10,2025-10
-2025-10-25,9 - Fazer 150 Preta SNT,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
-2025-10-27,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-27,8 - Fazer 150 Preta SNP,Entrada,Caução,500.0,Caução,2025,10,2025-10
-2025-10-28,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-28,7 - Fazer 150 Preta SNO,Saída,Outros,400.0,Envelopamento,2025,10,2025-10
-2025-10-28,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,10,2025-10
-2025-10-30,1 - Honda CG preta OYQ,Entrada,Aluguel,440.0,,2025,10,2025-10
-2025-10-30,1 - Honda CG preta OYQ,Saída,Manutenção,130.0,,2025,10,2025-10
-2025-10-30,1 - Honda CG preta OYQ,Entrada,Aluguel,220.0,,2025,10,2025-10
-2025-10-31,8 - Fazer 150 Preta SNP,Saída,Outros,500.0,Devolução Caução,2025,10,2025-10
-2025-10-31,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,10,2025-10
-2025-10-31,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,10,2025-10
-,,,,,,,,<NA>-<NA>
-2025-11-03,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel + 50 Caução,2025,11,2025-11
-2025-11-04,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-04,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-04,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,500.0,,2025,11,2025-11
-2025-11-04,5 - Yamaha Factor Azul - SOK,Saída,Outros,300.0,Caução,2025,11,2025-11
-2025-11-04,10 - Fazer 150 Preta SOD,Saída,Outros,150.0,Adesão Seguro,2025,11,2025-11
-2025-11-04,10 - Fazer 150 Preta SOD,Saída,Outros,69.0,Vistoria,2025,11,2025-11
-2025-11-04,10 - Fazer 150 Preta SOD,Saída,Outros,18.0,Suporte Celular,2025,11,2025-11
-2025-11-05,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-05,4 - Factor preta SOC,Entrada,Caução,500.0,Caução,2025,11,2025-11
-2025-11-05,9 - Fazer 150 Preta SNT,Entrada,Aluguel,300.0,250 Aluguel. 50 Caução,2025,11,2025-11
-2025-11-05,10 - Fazer 150 Preta SOD,Saída,Outros,450.0,Envelopamento,2025,11,2025-11
-2025-11-06,5 - Yamaha Factor Azul - SOK,Saída,Outros,50.0,Óleo Motor,2025,11,2025-11
-2025-11-06,5 - Yamaha Factor Azul - SOK,Saída,Outros,117.14,Vistoria Polícia Civil,2025,11,2025-11
-2025-11-06,5 - Yamaha Factor Azul - SOK,Saída,Outros,25.0,Lavagem,2025,11,2025-11
-2025-11-06,10 - Fazer 150 Preta SOD,Saída,Outros,750.0,Protetor Carenagem,2025,11,2025-11
-2025-11-08,10 - Fazer 150 Preta SOD,Entrada,Caução,500.0,,2025,11,2025-11
-2025-11-08,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,Descontado da Caução,2025,11,2025-11
-2025-11-10,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,11,2025-11
-2025-11-10,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,11,2025-11
-2025-11-10,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-10,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-12,5 - Yamaha Factor Azul - SOK,Saída,Outros,69.0,Vistoria,2025,11,2025-11
-2025-11-12,5 - Yamaha Factor Azul - SOK,Saída,Outros,15.0,Cartório,2025,11,2025-11
-2025-11-13,1 - Honda CG preta OYQ,Entrada,Aluguel,220.0,,2025,11,2025-11
-2025-11-14,9 - Fazer 150 Preta SNT,Entrada,Aluguel,300.0,250 Aluguel  50 Caução,2025,11,2025-11
-2025-11-14,7 - Fazer 150 Preta SNO,Saída,Outros,300.0,Pneu Traseiro,2025,11,2025-11
-2025-11-14,7 - Fazer 150 Preta SNO,Saída,Outros,35.0,Cabo de Embreagem,2025,11,2025-11
-2025-11-14,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-17,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,11,2025-11
-2025-11-17,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-17,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,11,2025-11
-2025-11-18,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-19,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-19,2 - Factor 150cc STS,Saída,Outros,69.0,Vistoria  Detran,2025,11,2025-11
-2025-11-19,5 - Yamaha Factor Azul - SOK,Entrada,Caução,400.0,,2025,11,2025-11
-2025-11-20,1 - Honda CG preta OYQ,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,2 - Factor 150cc STS,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,3 - Factor vermelha SGE,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,4 - Factor preta SOC,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,5 - Yamaha Factor Azul - SOK,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,6 - Fazer 150 Vermelha SOO,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,7 - Fazer 150 Preta SNO,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,8 - Fazer 150 Preta SNP,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,9 - Fazer 150 Preta SNT,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-20,10 - Fazer 150 Preta SOD,Saída,Seguro,78.0,,2025,11,2025-11
-2025-11-21,9 - Fazer 150 Preta SNT,Saída,Outros,69.0,Vistoria  Detran,2025,11,2025-11
-2025-11-21,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-23,1 - Honda CG preta OYQ,Entrada,Aluguel,220.0,,2025,11,2025-11
-2025-11-23,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-24,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-24,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel  50 Caução,2025,11,2025-11
-2025-11-25,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-25,9 - Fazer 150 Preta SNT,Entrada,Caução,500.0,,2025,11,2025-11
-2025-11-25,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-26,9 - Fazer 150 Preta SNT,Saída,Outros,259.8,Transferência/Baixa Gravame,2025,11,2025-11
-2025-11-26,9 - Fazer 150 Preta SNT,Saída,Manutenção,60.0,Retentor Bengala,2025,11,2025-11
-2025-11-26,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,11,2025-11
-2025-11-27,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-27,2 - Factor 150cc STS,Entrada,Caução,500.0,,2025,11,2025-11
-2025-11-29,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,11,2025-11
-2025-11-30,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2025,11,2025-11
-,Escolha a moto,Saída,,,,,,<NA>-<NA>
-2025-12-01,7 - Fazer 150 Preta SNO,Saída,Manutenção,202.0,"Tração, Patin Freio, Embuchameto, Pastilha de Freio",2025,12,2025-12
-2025-12-01,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,12,2025-12
-2025-12-01,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-02,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-02,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,12,2025-12
-2025-12-04,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-04,9 - Fazer 150 Preta SNT,Saída,Manutenção,68.0,Pastilha de Freio / Patim de Freio,2025,12,2025-12
-2025-12-06,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-06,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-07,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-07,1 - Honda CG preta OYQ,Entrada,Aluguel,440.0,,2025,12,2025-12
-2025-12-08,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-08,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,12,2025-12
-2025-12-08,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-09,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-10,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-11,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-11,3 - Factor vermelha SGE,Entrada,Caução,500.0,,2025,12,2025-12
-2025-12-11,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-12,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-15,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,12,2025-12
-2025-12-15,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-15,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-16,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-16,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-17,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-17,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-18,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-18,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-19,2 - Factor 150cc STS,Saída,Manutenção,200.0,"Tração, lona de freio, embuchamento, pastilha de freio.",2025,12,2025-12
-2025-12-19,8 - Fazer 150 Preta SNP,Saída,Manutenção,200.0,"Tração, lona de freio, embuchamento, pastilha de freio.",2025,12,2025-12
-2025-12-19,3 - Factor vermelha SGE,Saída,Manutenção,100.0,Envelopamemto Carenagem Farol e Pára-lama,2025,12,2025-12
-2025-12-20,10 - Fazer 150 Preta SOD,Entrada,Aluguel,500.0,,2025,12,2025-12
-2025-12-20,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-20,2 - Factor 150cc STS,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,3 - Factor vermelha SGE,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,4 - Factor preta SOC,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,5 - Yamaha Factor Azul - SOK,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,6 - Fazer 150 Vermelha SOO,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,7 - Fazer 150 Preta SNO,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,8 - Fazer 150 Preta SNP,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,9 - Fazer 150 Preta SNT,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-20,10 - Fazer 150 Preta SOD,Saída,Seguro,86.96,,2025,12,2025-12
-2025-12-21,2 - Factor 150cc STS,Entrada,Aluguel,440.0,,2025,12,2025-12
-2025-12-22,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-23,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-23,9 - Fazer 150 Preta SNT,Entrada,Caução,500.0,,2025,12,2025-12
-2025-12-24,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-24,9 - Fazer 150 Preta SNT,Saída,Caução,400.0,Devolução,2025,12,2025-12
-2025-12-24,9 - Fazer 150 Preta SNT,Saída,Manutenção,140.0,"Óleo Motor, Retentor, Lâmpada Farol",2025,12,2025-12
-2025-12-24,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-26,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,12,2025-12
-2025-12-26,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-27,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-27,9 - Fazer 150 Preta SNT,Saída,Manutenção,180.0,Bateria,2025,12,2025-12
-2025-12-29,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-29,3 - Factor vermelha SGE,Saída,Caução,500.0,Devolução,2025,12,2025-12
-2025-12-31,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-31,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2025,12,2025-12
-2025-12-31,9 - Fazer 150 Preta SNT,Saída,Manutenção,35.0,Pastilha de Freio,2025,12,2025-12
-,,Entrada,,,,,,<NA>-<NA>
-2026-01-02,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-02,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,Alugue 250 Caução 50,2026,1,2026-01
-2026-01-02,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-03,1 - Honda CG preta OYQ,Entrada,Aluguel,440.0,,2026,1,2026-01
-2026-01-03,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-03,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-05,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-05,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2026,1,2026-01
-2026-01-07,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-07,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-07,10 - Fazer 150 Preta SOD,Entrada,Caução,500.0,,2026,1,2026-01
-2026-01-07,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-08,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-09,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-12,5 - Yamaha Factor Azul - SOK,Saída,Outros,247.0,Pneu Traseiro,2026,1,2026-01
-2026-01-12,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-12,7 - Fazer 150 Preta SNO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-13,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-15,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-16,2 - Factor 150cc STS,Saída,Manutenção,110.0,Motor de Partida,2026,1,2026-01
-2026-01-16,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-16,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-16,5 - Yamaha Factor Azul - SOK,Entrada,Caução,500.0,,2026,1,2026-01
-2026-01-17,11 - Factor 2025 SOZ,Entrada,Aluguel,100.0,,2026,1,2026-01
-2026-01-17,11 - Factor 2025 SOZ,Saída,Seguro,150.0,Adesão Seguro,2026,1,2026-01
-2026-01-19,7 - Fazer 150 Preta SNO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-19,1 - Honda CG preta OYQ,Entrada,Aluguel,510.0,,2026,1,2026-01
-2026-01-19,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-19,11 - Factor 2025 SOZ,Saída,Outros,71.95,Vistoria  Detran,2026,1,2026-01
-2026-01-20,1 - Honda CG preta OYQ,Saída,Seguro,95.0,,2026,1,2026-01
-2026-01-20,2 - Factor 150cc STS,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,3 - Factor vermelha SGE,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,4 - Factor preta SOC,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,5 - Yamaha Factor Azul - SOK,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,6 - Fazer 150 Vermelha SOO,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,7 - Fazer 150 Preta SNO,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,8 - Fazer 150 Preta SNP,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,9 - Fazer 150 Preta SNT,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-20,10 - Fazer 150 Preta SOD,Saída,Seguro,98.0,,2026,1,2026-01
-2026-01-21,12 - Factor 2025 TOV,Saída,Seguro,150.0,Adesão Seguro,2026,1,2026-01
-2026-01-21,12 - Factor 2025 TOV,Saída,IPVA,247.0,,2026,1,2026-01
-2026-01-21,12 - Factor 2025 TOV,Saída,Outros,160.0,Vistoria Polícia Civil,2026,1,2026-01
-2026-01-21,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-21,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-21,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-22,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-22,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-23,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-24,4 - Factor preta SOC,Entrada,Caução,500.0,,2026,1,2026-01
-2026-01-24,4 - Factor preta SOC,Entrada,Aluguel,500.0,,2026,1,2026-01
-2026-01-24,11 - Factor 2025 SOZ,Entrada,Caução,500.0,,2026,1,2026-01
-2026-01-24,11 - Factor 2025 SOZ,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-26,7 - Fazer 150 Preta SNO,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-27,12 - Factor 2025 TOV,Saída,Outros,71.95,Vistoria  Detran,2026,1,2026-01
-2026-01-27,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-29,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-30,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-30,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-31,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,1,2026-01
-2026-01-31,11 - Factor 2025 SOZ,Entrada,Aluguel,250.0,Descontado da Caução,2026,1,2026-01
-,,,,,,,,<NA>-<NA>
-2026-02-02,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-04,1 - Honda CG preta OYQ,Saída,Revisão,280.0,,2026,2,2026-02
-2026-02-04,10 - Fazer 150 Preta SOD,Saída,Manutenção,30.0,Tração,2026,2,2026-02
-2026-02-04,7 - Fazer 150 Preta SNO,Saída,Revisão,126.0,"Revisão, Troca de Óleo e Filto de Óleo ",2026,2,2026-02
-2026-02-04,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-06,13 - Fazer 150 Preta SZL,Saída,Outros,163.86,Vistoria Roubos e Furtos,2026,2,2026-02
-2026-02-06,13 - Fazer 150 Preta SZL,Saída,Outros,7.42,Cartório,2026,2,2026-02
-2026-02-06,2 - Factor 150cc STS,Saída,Revisão,370.0,"Revisão 100, Retentor Bengala, Filtro de Ar, Filtro de Gasolina, Bucha da Balança, Bucha da Coroa, Pastilha de freio.",2026,2,2026-02
-2026-02-06,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-06,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-07,13 - Fazer 150 Preta SZL,Saída,Seguro,150.0,Adesão Seguro,2026,2,2026-02
-2026-02-07,2 - Factor 150cc STS,Saída,Manutenção,100.0,Tração,2026,2,2026-02
-2026-02-08,12 - Factor 2025 TOV,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-08,12 - Factor 2025 TOV,Entrada,Outros,50.0,Suporte Celular + Carregador,2026,2,2026-02
-2026-02-11,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-11,9 - Fazer 150 Preta SNT,Saída,Manutenção,40.0,Pastilha de Freio,2026,2,2026-02
-2026-02-11,11 - Factor 2025 SOZ,Entrada,Aluguel,500.0,,2026,2,2026-02
-2026-02-11,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-11,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-11,12 - Factor 2025 TOV,Saída,Outros,141.75,,2026,2,2026-02
-2026-02-12,6 - Fazer 150 Vermelha SOO,Entrada,Aluguel,500.0,,2026,2,2026-02
-2026-02-12,6 - Fazer 150 Vermelha SOO,Saída,Manutenção,180.0,Tração + Pastinha de Freio,2026,2,2026-02
-2026-02-12,7 - Fazer 150 Preta SNO,Entrada,Caução,250.0,,2026,2,2026-02
-2026-02-12,7 - Fazer 150 Preta SNO,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-13,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-13,2 - Factor 150cc STS,Saída,Manutenção,100.0,Tração,2026,2,2026-02
-2026-02-13,2 - Factor 150cc STS,Saída,Outros,235.0,Pneu Traseiro,2026,2,2026-02
-2026-02-13,2 - Factor 150cc STS,Saída,Outros,40.0,Cabo Embreagem,2026,2,2026-02
-2026-02-13,2 - Factor 150cc STS,Saída,Manutenção,30.0,Mão de Obra,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Revisão,80.0,,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,100.0,Tração,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,40.0,Óleo,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,35.0,Vela NGK,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,30.0,Pastilha de Freio,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,5.0,Filtro de Óleo,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,110.0,Disco de Freio,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,30.0,Manete de Embreagem,2026,2,2026-02
-2026-02-13,13 - Fazer 150 Preta SZL,Saída,Manutenção,150.0,Desempeno de Roda,2026,2,2026-02
-2026-02-13,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-14,5 - Yamaha Factor Azul - SOK,Entrada,Aluguel,250.0,,2026,2,2026-02
-,12 - Factor 2025 TOV,Entrada,Aluguel,250.0,,,,<NA>-<NA>
-2026-02-18,8 - Fazer 150 Preta SNP,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-18,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-18,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-19,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-21,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-22,12 - Factor 2025 TOV,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-23,8 - Fazer 150 Preta SNP,Entrada,Aluguel,300.0,,2026,2,2026-02
-2026-02-24,11 - Factor 2025 SOZ,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-24,13 - Fazer 150 Preta SZL,Saída,Outros,35.0,Cópia Chave,2026,2,2026-02
-2026-02-25,9 - Fazer 150 Preta SNT,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-25,3 - Factor vermelha SGE,Saída,Manutenção,100.0,Tração,2026,2,2026-02
-2026-02-25,4 - Factor preta SOC,Saída,Revisão,80.0,,2026,2,2026-02
-2026-02-25,4 - Factor preta SOC,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-25,10 - Fazer 150 Preta SOD,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-26,3 - Factor vermelha SGE,Entrada,Aluguel,250.0,,2026,2,2026-02
-2026-02-27,7 - Fazer 150 Preta SNO,Entrada,Aluguel,300.0,Aluguel 250 Calção 50,2026,2,2026-02
-2026-02-27,2 - Factor 150cc STS,Entrada,Aluguel,250.0,,2026,2,2026-02
+Data,Moto,Tipo,Categoria,Valor,Obs,Ano,Mes,Periodo
+2025-09-15,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,9,2025-09
+2025-09-15,3 - Factor vermelha SGE-****,Entrada,Caução,500.0,Calção ,2025,9,2025-09
+2025-09-15,3 - Factor vermelha SGE-****,Saída,Outros,35.0,Cartório ,2025,9,2025-09
+2025-09-15,2 - Factor 150cc STS-****,Entrada,Aluguel,300.0,Sem observações,2025,9,2025-09
+2025-09-15,1 - Honda CG preta OYQ-****,Entrada,Aluguel,230.0,Sem observações,2025,9,2025-09
+2025-09-18,4 - Factor preta SOC-****,Saída,Seguro,98.9,Sem observações,2025,9,2025-09
+2025-09-18,3 - Factor vermelha SGE-****,Saída,Seguro,98.9,Sem observações,2025,9,2025-09
+2025-09-18,2 - Factor 150cc STS-****,Saída,Seguro,85.0,Sem observações,2025,9,2025-09
+2025-09-19,2 - Factor 150cc STS-****,Saída,Manutenção,30.0,Óleo ,2025,9,2025-09
+2025-09-22,1 - Honda CG preta OYQ-****,Saída,Seguro,95.0,Sem observações,2025,9,2025-09
+2025-09-23,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,9,2025-09
+2025-09-28,1 - Honda CG preta OYQ-****,Entrada,Aluguel,450.0,Sem observações,2025,9,2025-09
+2025-09-28,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,255.0,Revisão ,2025,9,2025-09
+2025-09-28,2 - Factor 150cc STS-****,Saída,Outros,68.88,Vistoria DETRAN,2025,9,2025-09
+2025-09-28,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,68.88,Vistoria DETRAN,2025,9,2025-09
+2025-09-29,5 - Yamaha Factor Azul - SOK-****,Saída,Seguro,130.0,Sem observações,2025,9,2025-09
+2025-09-29,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,730.0,Protetor de Carenagem,2025,9,2025-09
+2025-09-30,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,9,2025-09
+2025-09-30,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,9,2025-09
+2025-10-02,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,60.0,Lavagem ,2025,10,2025-10
+2025-10-02,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,440.0,Envelopamento ,2025,10,2025-10
+2025-10-02,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-02,5 - Yamaha Factor Azul - SOK-****,Entrada,Caução,200.0,Calção ,2025,10,2025-10
+2025-10-02,3 - Factor vermelha SGE-****,Saída,Outros,156.86,Vistoria Polícia Civil ,2025,10,2025-10
+2025-10-03,2 - Factor 150cc STS-****,Saída,Outros,156.86,Vistoria Polícia Civil ,2025,10,2025-10
+2025-10-03,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,32.0,Suporte  Celular,2025,10,2025-10
+2025-10-04,2 - Factor 150cc STS-****,Saída,Outros,260.0,Revisão ,2025,10,2025-10
+2025-10-06,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,30.0,Elétrica ,2025,10,2025-10
+2025-10-07,5 - Yamaha Factor Azul - SOK-****,Entrada,Caução,50.0,Calção ,2025,10,2025-10
+2025-10-07,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-08,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-09,1 - Honda CG preta OYQ-****,Entrada,Aluguel,440.0,Sem observações,2025,10,2025-10
+2025-10-09,6 - Fazer 150 Vermelha SOO-****,Saída,Outros,68.0,Vistoria,2025,10,2025-10
+2025-10-09,6 - Fazer 150 Vermelha SOO-****,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
+2025-10-10,6 - Fazer 150 Vermelha SOO-****,Saída,Outros,730.0,Protetor de Carenagem,2025,10,2025-10
+2025-10-10,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-10,6 - Fazer 150 Vermelha SOO-****,Entrada,Caução,300.0,Calção ,2025,10,2025-10
+2025-10-13,2 - Factor 150cc STS-****,Saída,Outros,280.0,Pneu Dianteiro ,2025,10,2025-10
+2025-10-13,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-14,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-15,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-17,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-17,7 - Fazer 150 Preta SNO-****,Saída,Outros,69.0,Vistoria,2025,10,2025-10
+2025-10-17,7 - Fazer 150 Preta SNO-****,Saída,Seguro,150.0,Adesão Seguro,2025,10,2025-10
+2025-10-17,8 - Fazer 150 Preta SNP-****,Saída,Seguro,150.0,Adesão Seguro,2025,10,2025-10
+2025-10-18,1 - Honda CG preta OYQ-****,Entrada,Aluguel,220.0,Sem observações,2025,10,2025-10
+2025-10-20,8 - Fazer 150 Preta SNP-****,Saída,Outros,69.0,Vistoria ,2025,10,2025-10
+2025-10-20,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,300.0,Sem observações,2025,10,2025-10
+2025-10-21,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-21,8 - Fazer 150 Preta SNP-****,Saída,Outros,135.0,Transferência DETRAN,2025,10,2025-10
+2025-10-21,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-21,6 - Fazer 150 Vermelha SOO-****,Saída,Outros,259.0,Transferência DETRAN/Baixa Gravame,2025,10,2025-10
+2025-10-21,7 - Fazer 150 Preta SNO-****,Saída,Revisão,200.0,Sem observações,2025,10,2025-10
+2025-10-21,8 - Fazer 150 Preta SNP-****,Saída,Revisão,200.0,Sem observações,2025,10,2025-10
+2025-10-21,2 - Factor 150cc STS-****,Saída,Outros,450.0,Envelopamemto ,2025,10,2025-10
+2025-10-23,8 - Fazer 150 Preta SNP-****,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
+2025-10-24,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-25,9 - Fazer 150 Preta SNT-****,Saída,Outros,150.0,Adesão Seguro,2025,10,2025-10
+2025-10-25,9 - Fazer 150 Preta SNT-****,Saída,Outros,30.0,Instalação Protetor Carenagem,2025,10,2025-10
+2025-10-25,9 - Fazer 150 Preta SNT-****,Saída,Outros,450.0,Envelopamento,2025,10,2025-10
+2025-10-27,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-27,8 - Fazer 150 Preta SNP-****,Entrada,Caução,500.0,Caução ,2025,10,2025-10
+2025-10-28,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-28,7 - Fazer 150 Preta SNO-****,Saída,Outros,400.0,Envelopamento,2025,10,2025-10
+2025-10-28,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-10-30,1 - Honda CG preta OYQ-****,Entrada,Aluguel,440.0,Sem observações,2025,10,2025-10
+2025-10-30,1 - Honda CG preta OYQ-****,Saída,Manutenção,130.0,Sem observações,2025,10,2025-10
+2025-10-30,1 - Honda CG preta OYQ-****,Entrada,Aluguel,220.0,Sem observações,2025,10,2025-10
+2025-10-31,8 - Fazer 150 Preta SNP-****,Saída,Outros,500.0,Devolução Caução,2025,10,2025-10
+2025-10-31,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,10,2025-10
+2025-10-31,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,10,2025-10
+2025-11-03,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel + 50 Caução ,2025,11,2025-11
+2025-11-04,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-04,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-04,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,500.0,Sem observações,2025,11,2025-11
+2025-11-04,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,300.0,Caução ,2025,11,2025-11
+2025-11-04,10 - Fazer 150 Preta SOD-****,Saída,Outros,150.0,Adesão Seguro,2025,11,2025-11
+2025-11-04,10 - Fazer 150 Preta SOD-****,Saída,Outros,69.0,Vistoria ,2025,11,2025-11
+2025-11-04,10 - Fazer 150 Preta SOD-****,Saída,Outros,18.0,Suporte Celular ,2025,11,2025-11
+2025-11-05,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-05,4 - Factor preta SOC-****,Entrada,Caução,500.0,Caução ,2025,11,2025-11
+2025-11-05,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,300.0,250 Aluguel. 50 Caução ,2025,11,2025-11
+2025-11-05,10 - Fazer 150 Preta SOD-****,Saída,Outros,450.0,Envelopamento,2025,11,2025-11
+2025-11-06,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,50.0,Óleo Motor,2025,11,2025-11
+2025-11-06,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,117.14,Vistoria Polícia Civil,2025,11,2025-11
+2025-11-06,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,25.0,Lavagem ,2025,11,2025-11
+2025-11-06,10 - Fazer 150 Preta SOD-****,Saída,Outros,750.0,Protetor Carenagem,2025,11,2025-11
+2025-11-08,10 - Fazer 150 Preta SOD-****,Entrada,Caução,500.0,Sem observações,2025,11,2025-11
+2025-11-08,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Descontado da Caução ,2025,11,2025-11
+2025-11-10,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,11,2025-11
+2025-11-10,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,11,2025-11
+2025-11-10,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-10,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-12,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,69.0,Vistoria,2025,11,2025-11
+2025-11-12,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,15.0,Cartório ,2025,11,2025-11
+2025-11-13,1 - Honda CG preta OYQ-****,Entrada,Aluguel,220.0,Sem observações,2025,11,2025-11
+2025-11-14,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,300.0,250 Aluguel  50 Caução ,2025,11,2025-11
+2025-11-14,7 - Fazer 150 Preta SNO-****,Saída,Outros,300.0,Pneu Traseiro,2025,11,2025-11
+2025-11-14,7 - Fazer 150 Preta SNO-****,Saída,Outros,35.0,Cabo de Embreagem,2025,11,2025-11
+2025-11-14,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-17,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,11,2025-11
+2025-11-17,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-17,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,11,2025-11
+2025-11-18,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-19,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-19,2 - Factor 150cc STS-****,Saída,Outros,69.0,Vistoria  Detran,2025,11,2025-11
+2025-11-19,5 - Yamaha Factor Azul - SOK-****,Entrada,Caução,400.0,Sem observações,2025,11,2025-11
+2025-11-20,1 - Honda CG preta OYQ-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,2 - Factor 150cc STS-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,3 - Factor vermelha SGE-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,4 - Factor preta SOC-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,5 - Yamaha Factor Azul - SOK-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,6 - Fazer 150 Vermelha SOO-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,7 - Fazer 150 Preta SNO-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,8 - Fazer 150 Preta SNP-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,9 - Fazer 150 Preta SNT-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-20,10 - Fazer 150 Preta SOD-****,Saída,Seguro,78.0,Sem observações,2025,11,2025-11
+2025-11-21,9 - Fazer 150 Preta SNT-****,Saída,Outros,69.0,Vistoria  Detran,2025,11,2025-11
+2025-11-21,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-23,1 - Honda CG preta OYQ-****,Entrada,Aluguel,220.0,Sem observações,2025,11,2025-11
+2025-11-23,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-24,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-24,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel  50 Caução ,2025,11,2025-11
+2025-11-25,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-25,9 - Fazer 150 Preta SNT-****,Entrada,Caução,500.0,Sem observações,2025,11,2025-11
+2025-11-25,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-26,9 - Fazer 150 Preta SNT-****,Saída,Outros,259.8,Transferência/Baixa Gravame,2025,11,2025-11
+2025-11-26,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,60.0,Retentor Bengala ,2025,11,2025-11
+2025-11-26,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,11,2025-11
+2025-11-27,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-27,2 - Factor 150cc STS-****,Entrada,Caução,500.0,Sem observações,2025,11,2025-11
+2025-11-29,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-11-30,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2025,11,2025-11
+2025-12-01,7 - Fazer 150 Preta SNO-****,Saída,Manutenção,202.0,"Tração, Patin Freio, Embuchameto, Pastilha de Freio",2025,12,2025-12
+2025-12-01,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,12,2025-12
+2025-12-01,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-02,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-02,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,Aluguel 250 Caução 50,2025,12,2025-12
+2025-12-04,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-04,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,68.0,Pastilha de Freio / Patim de Freio,2025,12,2025-12
+2025-12-06,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-06,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-07,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-07,1 - Honda CG preta OYQ-****,Entrada,Aluguel,440.0,Sem observações,2025,12,2025-12
+2025-12-08,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-08,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,12,2025-12
+2025-12-08,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-09,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-10,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-11,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-11,3 - Factor vermelha SGE-****,Entrada,Caução,500.0,Sem observações,2025,12,2025-12
+2025-12-11,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-12,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-15,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução,2025,12,2025-12
+2025-12-15,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-15,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-16,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-16,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-17,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-17,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-18,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-18,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-19,2 - Factor 150cc STS-****,Saída,Manutenção,200.0,"Tração, lona de freio, embuchamento, pastilha de freio.",2025,12,2025-12
+2025-12-19,8 - Fazer 150 Preta SNP-****,Saída,Manutenção,200.0,"Tração, lona de freio, embuchamento, pastilha de freio.",2025,12,2025-12
+2025-12-19,3 - Factor vermelha SGE-****,Saída,Manutenção,100.0,Envelopamemto Carenagem Farol e Pára-lama,2025,12,2025-12
+2025-12-20,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,500.0,Sem observações,2025,12,2025-12
+2025-12-20,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-20,2 - Factor 150cc STS-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,3 - Factor vermelha SGE-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,4 - Factor preta SOC-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,5 - Yamaha Factor Azul - SOK-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,6 - Fazer 150 Vermelha SOO-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,7 - Fazer 150 Preta SNO-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,8 - Fazer 150 Preta SNP-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,9 - Fazer 150 Preta SNT-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-20,10 - Fazer 150 Preta SOD-****,Saída,Seguro,86.96,Sem observações,2025,12,2025-12
+2025-12-21,2 - Factor 150cc STS-****,Entrada,Aluguel,440.0,Sem observações,2025,12,2025-12
+2025-12-22,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-23,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-23,9 - Fazer 150 Preta SNT-****,Entrada,Caução,500.0,Sem observações,2025,12,2025-12
+2025-12-24,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-24,9 - Fazer 150 Preta SNT-****,Saída,Caução,400.0,Devolução ,2025,12,2025-12
+2025-12-24,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,140.0,"Óleo Motor, Retentor, Lâmpada Farol",2025,12,2025-12
+2025-12-24,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-26,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2025,12,2025-12
+2025-12-26,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-27,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-27,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,180.0,Bateria ,2025,12,2025-12
+2025-12-29,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-29,3 - Factor vermelha SGE-****,Saída,Caução,500.0,Devolução,2025,12,2025-12
+2025-12-31,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-31,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2025,12,2025-12
+2025-12-31,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,35.0,Pastilha de Freio,2025,12,2025-12
+2026-01-02,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-02,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,Alugue 250 Caução 50,2026,1,2026-01
+2026-01-02,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-03,1 - Honda CG preta OYQ-****,Entrada,Aluguel,440.0,Sem observações,2026,1,2026-01
+2026-01-03,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-03,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-05,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-05,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,250 Aluguel 50 Caução ,2026,1,2026-01
+2026-01-07,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-07,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-07,10 - Fazer 150 Preta SOD-****,Entrada,Caução,500.0,Sem observações,2026,1,2026-01
+2026-01-07,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-08,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-09,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-12,5 - Yamaha Factor Azul - SOK-****,Saída,Outros,247.0,Pneu Traseiro,2026,1,2026-01
+2026-01-12,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-12,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-13,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-15,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-16,2 - Factor 150cc STS-****,Saída,Manutenção,110.0,Motor de Partida ,2026,1,2026-01
+2026-01-16,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-16,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-16,5 - Yamaha Factor Azul - SOK-****,Entrada,Caução,500.0,Sem observações,2026,1,2026-01
+2026-01-17,11 - Factor 2025 SOZ-****,Entrada,Aluguel,100.0,Sem observações,2026,1,2026-01
+2026-01-17,11 - Factor 2025 SOZ-****,Saída,Seguro,150.0,Adesão Seguro,2026,1,2026-01
+2026-01-19,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-19,1 - Honda CG preta OYQ-****,Entrada,Aluguel,510.0,Sem observações,2026,1,2026-01
+2026-01-19,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-19,11 - Factor 2025 SOZ-****,Saída,Outros,71.95,Vistoria  Detran ,2026,1,2026-01
+2026-01-20,1 - Honda CG preta OYQ-****,Saída,Seguro,95.0,Sem observações,2026,1,2026-01
+2026-01-20,2 - Factor 150cc STS-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,3 - Factor vermelha SGE-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,4 - Factor preta SOC-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,5 - Yamaha Factor Azul - SOK-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,6 - Fazer 150 Vermelha SOO-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,7 - Fazer 150 Preta SNO-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,8 - Fazer 150 Preta SNP-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,9 - Fazer 150 Preta SNT-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-20,10 - Fazer 150 Preta SOD-****,Saída,Seguro,98.0,Sem observações,2026,1,2026-01
+2026-01-21,12 - Factor 2025 TOV-****,Saída,Seguro,150.0,Adesão Seguro,2026,1,2026-01
+2026-01-21,12 - Factor 2025 TOV-****,Saída,IPVA,247.0,Sem observações,2026,1,2026-01
+2026-01-21,12 - Factor 2025 TOV-****,Saída,Outros,160.0,Vistoria Polícia Civil,2026,1,2026-01
+2026-01-21,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-21,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-21,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-22,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-22,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-23,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-24,4 - Factor preta SOC-****,Entrada,Caução,500.0,Sem observações,2026,1,2026-01
+2026-01-24,4 - Factor preta SOC-****,Entrada,Aluguel,500.0,Sem observações,2026,1,2026-01
+2026-01-24,11 - Factor 2025 SOZ-****,Entrada,Caução,500.0,Sem observações,2026,1,2026-01
+2026-01-24,11 - Factor 2025 SOZ-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-26,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-27,12 - Factor 2025 TOV-****,Saída,Outros,71.95,Vistoria  Detran ,2026,1,2026-01
+2026-01-27,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-29,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-30,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-30,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-31,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,1,2026-01
+2026-01-31,11 - Factor 2025 SOZ-****,Entrada,Aluguel,250.0,Descontado da Caução,2026,1,2026-01
+2026-02-02,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-04,1 - Honda CG preta OYQ-****,Saída,Revisão,280.0,Sem observações,2026,2,2026-02
+2026-02-04,10 - Fazer 150 Preta SOD-****,Saída,Manutenção,30.0,Tração ,2026,2,2026-02
+2026-02-04,7 - Fazer 150 Preta SNO-****,Saída,Revisão,126.0,"Revisão, Troca de Óleo e Filto de Óleo ",2026,2,2026-02
+2026-02-04,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-06,13 - Fazer 150 Preta SZL-****,Saída,Outros,163.86,Vistoria Roubos e Furtos,2026,2,2026-02
+2026-02-06,13 - Fazer 150 Preta SZL-****,Saída,Outros,7.42,Cartório ,2026,2,2026-02
+2026-02-06,2 - Factor 150cc STS-****,Saída,Revisão,370.0,"Revisão 100, Retentor Bengala, Filtro de Ar, Filtro de Gasolina, Bucha da Balança, Bucha da Coroa, Pastilha de freio.",2026,2,2026-02
+2026-02-06,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-06,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-07,13 - Fazer 150 Preta SZL-****,Saída,Seguro,150.0,Adesão Seguro,2026,2,2026-02
+2026-02-07,2 - Factor 150cc STS-****,Saída,Manutenção,100.0,Tração ,2026,2,2026-02
+2026-02-08,12 - Factor 2025 TOV-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-08,12 - Factor 2025 TOV-****,Entrada,Outros,50.0,Suporte Celular + Carregador,2026,2,2026-02
+2026-02-11,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-11,9 - Fazer 150 Preta SNT-****,Saída,Manutenção,40.0,Pastilha de Freio,2026,2,2026-02
+2026-02-11,11 - Factor 2025 SOZ-****,Entrada,Aluguel,500.0,Sem observações,2026,2,2026-02
+2026-02-11,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-11,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-11,12 - Factor 2025 TOV-****,Saída,Outros,141.75,Sem observações,2026,2,2026-02
+2026-02-12,6 - Fazer 150 Vermelha SOO-****,Entrada,Aluguel,500.0,Sem observações,2026,2,2026-02
+2026-02-12,6 - Fazer 150 Vermelha SOO-****,Saída,Manutenção,180.0,Tração + Pastinha de Freio,2026,2,2026-02
+2026-02-12,7 - Fazer 150 Preta SNO-****,Entrada,Caução,250.0,Sem observações,2026,2,2026-02
+2026-02-12,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-13,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-13,2 - Factor 150cc STS-****,Saída,Manutenção,100.0,Tração ,2026,2,2026-02
+2026-02-13,2 - Factor 150cc STS-****,Saída,Outros,235.0,Pneu Traseiro,2026,2,2026-02
+2026-02-13,2 - Factor 150cc STS-****,Saída,Outros,40.0,Cabo Embreagem,2026,2,2026-02
+2026-02-13,2 - Factor 150cc STS-****,Saída,Manutenção,30.0,Mão de Obra,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Revisão,80.0,Sem observações,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,100.0,Tração ,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,40.0,Óleo ,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,35.0,Vela NGK,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,30.0,Pastilha de Freio,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,5.0,Filtro de Óleo ,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,110.0,Disco de Freio,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,30.0,Manete de Embreagem,2026,2,2026-02
+2026-02-13,13 - Fazer 150 Preta SZL-****,Saída,Manutenção,150.0,Desempeno de Roda,2026,2,2026-02
+2026-02-13,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-14,5 - Yamaha Factor Azul - SOK-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-18,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-18,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-18,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-19,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-21,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-22,12 - Factor 2025 TOV-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-23,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,300.0,Sem observações,2026,2,2026-02
+2026-02-24,11 - Factor 2025 SOZ-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-24,13 - Fazer 150 Preta SZL-****,Saída,Outros,35.0,Cópia Chave,2026,2,2026-02
+2026-02-25,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-25,3 - Factor vermelha SGE-****,Saída,Manutenção,100.0,Tração ,2026,2,2026-02
+2026-02-25,4 - Factor preta SOC-****,Saída,Revisão,80.0,Sem observações,2026,2,2026-02
+2026-02-25,4 - Factor preta SOC-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-25,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-26,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-27,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,300.0,Aluguel 250 Calção 50,2026,2,2026-02
+2026-02-27,2 - Factor 150cc STS-****,Entrada,Aluguel,250.0,Sem observações,2026,2,2026-02
+2026-02-27,14 - Fazer 150 Preta SOL-****,Saída,Manutenção,350.0,Envelopamento ,2026,2,2026-02
+2026-03-01,12 - Factor 2025 TOV-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-01,8 - Fazer 150 Preta SNP-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-01,5 - Yamaha Factor Azul - SOK-****,Saída,Manutenção,150.0,Envelopamemto Tanque,2026,3,2026-03
+2026-03-01,5 - Yamaha Factor Azul - SOK-****,Saída,Revisão,185.0,"Caixa de Direção, Patim de Freio,  Pastilha de Freio.",2026,3,2026-03
+2026-03-03,13 - Fazer 150 Preta SZL-****,Saída,Outros,141.75,Transferência Detran,2026,3,2026-03
+2026-03-03,11 - Factor 2025 SOZ-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-03,2 - Factor 150cc STS-****,Saída,Outros,953.0,Despachante,2026,3,2026-03
+2026-03-04,14 - Fazer 150 Preta SOL-****,Saída,Outros,141.75,Transferência,2026,3,2026-03
+2026-03-04,14 - Fazer 150 Preta SOL-****,Saída,Outros,811.0,Protetor de Carenagem,2026,3,2026-03
+2026-03-04,14 - Fazer 150 Preta SOL-****,Saída,Outros,50.0,Suporte e Carregador celular e Antena corta pipa.,2026,3,2026-03
+2026-03-04,13 - Fazer 150 Preta SZL-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-04,9 - Fazer 150 Preta SNT-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-04,10 - Fazer 150 Preta SOD-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-05,3 - Factor vermelha SGE-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-06,7 - Fazer 150 Preta SNO-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03
+2026-03-06,7 - Fazer 150 Preta SNO-****,Saída,Manutenção,18.0,Pastilha de Freio,2026,3,2026-03
+2026-03-06,14 - Fazer 150 Preta SOL-****,Entrada,Caução,500.0,Sem observações,2026,3,2026-03
+2026-03-06,14 - Fazer 150 Preta SOL-****,Entrada,Aluguel,500.0,Sem observações,2026,3,2026-03
+2026-03-07,12 - Factor 2025 TOV-****,Entrada,Aluguel,250.0,Sem observações,2026,3,2026-03

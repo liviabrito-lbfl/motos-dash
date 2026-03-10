@@ -23,6 +23,8 @@ def inicializar_session_state():
         st.session_state.categoria_entrada = []
     if "categoria_saida" not in st.session_state:
         st.session_state.categoria_saida = []
+    if "app_mode" not in st.session_state:
+        st.session_state.app_mode = None  # None, 'visualizar', 'atualizar'
 
 
 def render_sidebar(mdf, total_motos):
